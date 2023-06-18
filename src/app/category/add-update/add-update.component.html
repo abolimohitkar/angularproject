@@ -1,0 +1,26 @@
+<div class="form-froup row">
+
+    <!-- <label class="col-sm-2 col-form-label">Id</label>
+    <div class="col-sm-10">
+        <input type="text" class="form-control" [(ngModel)]="Categoryid"
+        placeholder="Enter Id"> 
+    </div>-->
+    <label class="col-sm-2 col-form-label">Category</label>
+    <div class="col-sm-10">
+        <input type="text" class="form-control" [(ngModel)]="CategoryName"
+        placeholder="Enter Name">
+    </div>
+    <label class="col-sm-2 col-form-label">Sub-Category</label>
+    <div class="col-sm-10">
+        <input type="text" class="form-control" [(ngModel)]="Subcategory"
+        placeholder="Enter Description">
+    </div>
+</div>
+
+<button (click)="addcategory()" *ngIf="cat.Categoryid==0" class="btn btn-primary">
+    Add
+</button>
+
+<button (click)="updatecategory()" *ngIf="cat.Categoryid!=0" class="btn btn-primary">
+    Update
+</button>
