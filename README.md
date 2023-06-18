@@ -1,27 +1,50 @@
-# Angularproject
+## Online ShopKart 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.0.
+Online ShopKart API system build on Django Rest Framework and Angular.
 
-## Development server
+It contains Category and Product tabs.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+User can add Categories and Subcategories.
 
-## Code scaffolding
+User can add,view,update and delete Categories.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+User can also see another tabs Product where can add products with details name and price in the required category.
 
-## Build
+User can do the view ,update and delete the products.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Backend:
+Using django rest Api data can be store in database SQLite and can test the API's by using the POSTMAN.
 
-## Running unit tests
+## Frontend:
+The frontend is made of Angular. Where by using service file  data from django RestAPI is access to the angular.
+The components are created are category and product.
+The app-router is used for the better performance.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+ 
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Tools Used:
+
+ 1)Frontend:Angular(HTML,CSS,Angular TypeScript,BootStrap)
+
+ 2)Backend:Django Rest API Framework
+
+ 3)Database:SQLite
+
+ 4)Other(Testing):Postman
+
+## ScreenShots:
+Category Test By Postman:
+![Category-Postman](https://github.com/abolimohitkar/CategoryandProductProject/assets/125636222/c49e9e09-3445-42cf-8db3-1f8960371de1)
+Products Test By Postman:
+![Product_Postman](https://github.com/abolimohitkar/CategoryandProductProject/assets/125636222/16ef2449-43d5-4712-b6d7-56e7897a6157)
+HomePage in Angular:
+![Angular_Frontend](https://github.com/abolimohitkar/CategoryandProductProject/assets/125636222/5b9a7895-8abe-4fc2-a04c-12db74cbba18)
+Add Categoies:
+![Add Category](https://github.com/abolimohitkar/CategoryandProductProject/assets/125636222/4def1981-b7a1-44d5-8a8d-a14502c3acf1)
+Add Products:
+![Add Product](https://github.com/abolimohitkar/CategoryandProductProject/assets/125636222/811527a2-3963-47d9-988e-5e63ee964890)
+
